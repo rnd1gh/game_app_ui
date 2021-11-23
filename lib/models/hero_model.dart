@@ -2,6 +2,7 @@ class HeroModel {
   final String name;
   final String image;
   final double speed, health, attack;
+  final String desciption;
 
   HeroModel({
     required this.name,
@@ -9,6 +10,7 @@ class HeroModel {
     required this.speed,
     required this.health,
     required this.attack,
+    required this.desciption,
   });
 }
 
@@ -19,6 +21,8 @@ List<HeroModel> heroes = [
     speed: 16.0,
     health: 40.0,
     attack: 65.0,
+    desciption:
+        "Super smash bros ultimate villagers from the animal crossing series. This troops fight most effectively in large group",
   ),
   HeroModel(
     name: 'Cow Master',
@@ -26,6 +30,8 @@ List<HeroModel> heroes = [
     speed: 25.0,
     health: 50.0,
     attack: 75.0,
+    desciption:
+        "Super smash bros ultimate villagers from the animal crossing series. This troops fight most effectively in large group",
   ),
   HeroModel(
     name: 'Bombardier',
@@ -33,5 +39,7 @@ List<HeroModel> heroes = [
     speed: 10.0,
     health: 80.0,
     attack: 80.0,
+    desciption:
+        "Super smash bros ultimate villagers from the animal crossing series. This troops fight most effectively in large group",
   ),
 ];
